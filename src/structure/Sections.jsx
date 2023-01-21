@@ -1,8 +1,11 @@
 import React from 'react';
+import Homepage from '../pages/Homepage';
 
 const Sections = () => {
   return (
-    <div>Sections</div>
+    <>
+    <Homepage/>
+    </>
   )
 }
 

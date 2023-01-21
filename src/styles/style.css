@@ -1,3 +1,20 @@
+/*Fondo.jsx*/
 body{
-    background-color: aqua;
+    background: center;
+    background: fixed;
+    background-image: url(/src/img/wallpaper.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*ActivitiesSlider.jsx*/
+.slider{
+    height: 300px;
+}
+
+.letras{
+    color: white;
 }
