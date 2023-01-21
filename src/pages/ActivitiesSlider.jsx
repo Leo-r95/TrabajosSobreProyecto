@@ -9,7 +9,6 @@ import Pesasymaquinas from "../img/ImgActivities/PesasyMaquinasdeGym.jpg";
 import Spinning from "../img/ImgActivities/Spinning.jpg";
 import Zumba from "../img/ImgActivities/Zumba.jpg";
 import Montañismo from "../img/ImgActivities/Montañismo.jpg";
-import Leonel from "../img/fotosnuestras/Leonel.jpeg";
 
 const ActivitiesSlider = () => {
   return (
