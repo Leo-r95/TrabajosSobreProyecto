@@ -1,0 +1,40 @@
+.fondo-suscribete{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fondo-suscribete{
+    border: solid white 3px;
+}
+
+.borde-columna-suscribete{
+    border: solid white 3px;
+    border-radius: 10%;
+    margin: 5px 5px 10px 5px;
+    padding-bottom: 10px;
+}
+
+
+.text-suscribete{
+    color: gainsboro;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: black;
+    margin-bottom: 5px;
+}
+
+.color-ofertas{
+    margin-top: 10px;
+    color: rgb(255, 8, 201);
+}
+
+.color-precio{
+    color: white;
+}
+

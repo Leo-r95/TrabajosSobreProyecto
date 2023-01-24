@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutus.css";
+import "../styles/aboutus.css";
 import Damian from "../img/fotosnuestras/Damian.jpg";
 import Gonzalo from "../img/fotosnuestras/Gonzalo.jpeg";
 import Leonel from "../img/fotosnuestras/Leonel.jpeg";
@@ -7,10 +7,12 @@ import Leonel from "../img/fotosnuestras/Leonel.jpeg";
 const AboutUs = () => {
   return (
     <section className="aboutuscolor">
+      <div className="tituloabout background"><h1>Coaches</h1></div>
       <div className="clearfix background">
+        <h2>Gonzalo Quiroga</h2>
         <img
           src={Gonzalo}
-          className="col-md-6 float-md-start mb-3 ms-md-3 tamaño"
+          className="col-md-6 float-md-start mb-3 ms-md-3 tamaño box"
           alt="..."
         />
 
@@ -35,10 +37,11 @@ const AboutUs = () => {
           content. A joke, perhaps. Unfortunately, there's none of that here.
         </p>
       </div>
-      <div className="clearfix">
+      <div className="clearfix background">
+        <h2>Damian Gomez</h2>
         <img
           src={Damian}
-          className="col-md-6 float-md-end mb-3 ms-md-3 tamaño"
+          className="col-md-6 float-md-end mb-3 ms-md-3 tamaño box"
           alt="..."
         />
 
@@ -63,10 +66,11 @@ const AboutUs = () => {
           content. A joke, perhaps. Unfortunately, there's none of that here.
         </p>
       </div>
-      <div className="clearfix">
+      <div className="clearfix background">
+        <h2>Leonel Ros</h2>
         <img
           src={Leonel}
-          className="col-md-6 float-md-start mb-3 ms-md-3 tamaño"
+          className="col-md-6 float-md-start mb-3 ms-md-3 tamaño box"
           alt="..."
         />
 

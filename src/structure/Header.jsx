@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <Navbar />
       <div className="container text-center">
-        <div className="row align-items-start">
+        <div className="row align-items-start boxTitulo">
           <div className="col centrar"><h1 className="titulo">FULL STACK GYM</h1></div>
           <div className="col">
             <h3 className="text">
