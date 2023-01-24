@@ -7,7 +7,7 @@ import Leonel from "../img/fotosnuestras/Leonel.jpeg";
 const AboutUs = () => {
   return (
     <section className="aboutuscolor">
-      <div className="clearfix">
+      <div className="clearfix background">
         <img
           src={Gonzalo}
           className="col-md-6 float-md-start mb-3 ms-md-3 tamaño"
