@@ -18,13 +18,13 @@ const Navbar = () => {
                         <a href="http:localhost:3000/home">Inicio</a>
                     </li>
                     <li>
-                        <a href="http:/localhost:3000/activities">Actividades</a>
+                        <a href="#ACTIVIDADES">Actividades</a>
                     </li>
                     <li>
                         <a href="#ABOUTUS">Nosotros</a>
                     </li>
                     <li>
-                        <a href="http:/localhost:3000/contacto">Contacto</a>
+                        <a href="#FOOTER">Contacto</a>
                     </li>
                     <li>
                         <a href="http:/localhost;3000/login">Registrer</a>

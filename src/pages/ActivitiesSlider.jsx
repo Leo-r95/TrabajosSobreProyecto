@@ -12,7 +12,7 @@ import Montañismo from "../img/ImgActivities/Montañismo.jpg";
 
 const ActivitiesSlider = () => {
   return (
-    <section>
+    <section id="ACTIVIDADES">
 
       <div className="d-flex justify-content-center letras"><h1>Sumate a nuestras actividades</h1></div>
       <div id="carouselExample" className="carousel slide">

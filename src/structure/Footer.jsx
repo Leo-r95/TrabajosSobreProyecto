@@ -5,7 +5,7 @@ import logo from "../img/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="pie-pagina">
+    <footer className="pie-pagina" id="FOOTER">
         <div className="grupo-1">
             <div className="box">
               <figure>
@@ -43,7 +43,7 @@ const Footer = () => {
               <div className="miniNav">
                 <h2>NAVEGA</h2>
                 <a href="http:localhost:3000/home">Inicio</a>
-                <a href="http:/localhost:3000/activities">Actividades</a>
+                <a href="#ACTIVIDADES">Actividades</a>
                 <a href="#ABOUTUS">Nosotros</a>
                 <a href="http:/localhost;3000/login">Registrate/Login</a>
               </div>
