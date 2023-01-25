@@ -63,7 +63,6 @@
 
 h2{
     text-align: center;
-    font-size: 20px;
     color: gainsboro;
 }
 
@@ -79,7 +78,7 @@ h2{
 }
 
 .miniNav a{
-    margin: 3px 0;
+    margin: 5px 0;
     text-align: center;
     background: #0a1a2a;
     color: white;
@@ -148,56 +147,11 @@ textarea{
     cursor: pointer;
 }
 
+.logoFooter{
+    filter: invert(33%) sepia(6%) saturate(20%) hue-rotate(16deg) brightness(95%) contrast(84%);
+}
+
 @media (max-width: 600px){
-    main{
-        width: 90%;
-        padding: 0 20px;
-    }
-    nav{
-        position: absolute;
-        left: -300px;
-        top: 0;
-        z-index: 999;
-        width: 280px;
-        height: 100vh;
-        background-color: #fefefe;
-        transition: 0.2s;
-        box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
-    }
-
-    .logo{
-        display: flex;
-        justify-content: center;
-    }
-
-    #nav_check:checked ~ nav{
-        left: 0;
-    }
-
-    nav .logo {
-        display: block;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        margin-left: 30px;
-    }
-
-
-    nav ul li a{
-        margin-bottom: 5px;
-        padding: 10px 15px;
-        border-radius: 5px;
-    }
-
-    nav ul{
-        display: block;
-        padding: 0 20px;
-        margin-top: 30px;
-    }
-
-    .burger{
-        display: block;
-    }
 
     .pie-pagina .grupo-1{
         width: 90%;

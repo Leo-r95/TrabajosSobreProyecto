@@ -15,19 +15,19 @@ const Navbar = () => {
                 </div>
                 <ul>
                     <li>
-                        <a href="http:localhost:3000/home" class="active">Inicio</a>
+                        <a href="http:localhost:3000/home">Inicio</a>
                     </li>
                     <li>
                         <a href="http:/localhost:3000/activities">Actividades</a>
                     </li>
                     <li>
-                        <a href="http:/localhost:3000/abousus">Nosotros</a>
+                        <a href="#ABOUTUS">Nosotros</a>
                     </li>
                     <li>
                         <a href="http:/localhost:3000/contacto">Contacto</a>
                     </li>
                     <li>
-                        <a href="http:/localhost;3000/login">Login/Registrar</a>
+                        <a href="http:/localhost;3000/login">Registrer</a>
                     </li>
                 </ul>
             </nav>

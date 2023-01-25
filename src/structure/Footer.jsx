@@ -5,10 +5,9 @@ import logo from "../img/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="cuadro">
-      <div class="container text-center cuadro">
-        <div class="row align-items-start">
-            <div className="col box grupo-1">
+    <footer className="pie-pagina">
+        <div className="grupo-1">
+            <div className="box">
               <figure>
                 <a href="...">
                 <img className="logoFooter" src={logo} alt="Logo" />
@@ -16,7 +15,7 @@ const Footer = () => {
               </figure>
             </div>
             
-            <div className="col box grupo-1">
+            <div className="box">
               <h2>CONTACTANOS</h2>
               <div className="form">
                 <form action="">
@@ -29,7 +28,7 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="col box grupo-1">
+            <div className="box">
               <h2>SIGUENOS</h2>
               <div className="red-social espacio">
                 <a href="https://www.facebook.com/" rel="noreferrer" target={"_blank"} class="icon icon-facebook">
@@ -45,14 +44,13 @@ const Footer = () => {
                 <h2>NAVEGA</h2>
                 <a href="http:localhost:3000/home">Inicio</a>
                 <a href="http:/localhost:3000/activities">Actividades</a>
-                <a href="http:/localhost:3000/abousus">Nosotros</a>
+                <a href="#ABOUTUS">Nosotros</a>
                 <a href="http:/localhost;3000/login">Registrate/Login</a>
               </div>
             </div>
         </div>
-      </div>
 
-      <div className="grupo-2 d-flex justify-content-center">
+      <div className="grupo-2">
         <small>&copy; 2023 - Todos los Derechos Reservados.</small>
       </div>
     </footer>

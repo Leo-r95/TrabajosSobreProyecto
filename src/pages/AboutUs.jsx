@@ -6,7 +6,7 @@ import Leonel from "../img/fotosnuestras/Leonel.jpeg";
 
 const AboutUs = () => {
   return (
-    <section className="aboutuscolor">
+    <section className="aboutuscolor" id="ABOUTUS">
       <div className="tituloabout background"><h1>Coaches</h1></div>
       <div className="clearfix background">
         <h2>Gonzalo Quiroga</h2>
