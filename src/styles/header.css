@@ -24,6 +24,16 @@ h3{
     font-style: oblique;
 }
 
+.citacion{
+    background-color:rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+}
+
+.boxTitulo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /*
 Posibles fuentes:
 'Trebuchet MS'

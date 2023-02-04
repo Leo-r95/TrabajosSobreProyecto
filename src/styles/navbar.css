@@ -75,7 +75,7 @@ nav ul li a:hover{
     background:#f6f4ff ;
 }
 
-@media (max-width: 600px){
+@media (max-width: 657px){
     main{
         width: 90%;
         padding: 0 20px;
@@ -87,7 +87,7 @@ nav ul li a:hover{
         z-index: 999;
         width: 280px;
         height: 100vh;
-        background-color: #fefefe;
+        background-color: #0a141d;
         transition: 0.2s;
         box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
     }

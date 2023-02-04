@@ -151,7 +151,7 @@ textarea{
     filter: invert(33%) sepia(6%) saturate(20%) hue-rotate(16deg) brightness(95%) contrast(84%);
 }
 
-@media (max-width: 600px){
+@media (max-width: 657px){
 
     .pie-pagina .grupo-1{
         width: 90%;

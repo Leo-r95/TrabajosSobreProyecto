@@ -18,3 +18,11 @@ body{
 .letras{
     color: white;
 }
+
+@media (max-width: 657px){
+    img{
+        display: flex;
+        justify-content: center;
+
+    }
+}

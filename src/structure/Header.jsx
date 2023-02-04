@@ -9,8 +9,9 @@ const Header = () => {
       <Navbar />
       <div className="container text-center">
         <div className="row align-items-start boxTitulo">
-          <div className="col centrar"><h1 className="titulo">FULL STACK GYM</h1></div>
-          <div className="col">
+          <div className="col centrar">
+            <h1 className="titulo">FULL STACK GYM</h1></div>
+          <div className="col citacion">
             <h3 className="text">
               "Tu sueñas. Tu planeas. Tu alcanzas. Habra obstaculos. Habra
               escepticos. Habra errores. Pero con el trabajo duro, con
